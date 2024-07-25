@@ -1,0 +1,19 @@
+ul{
+   display: flex;
+   border: solid 1px black;
+   border-radius: 10px;
+   background-color: aqua;
+  /* margin-left: 4em; */
+  /* margin-top: -10em; */
+  
+}
+
+li{
+    color:brown;
+    margin: 20px;
+    display: flex;
+   width: 210px;
+   font-size: 25px;
+   font-family: sans-serif;
+   text-transform: capitalize;
+}
