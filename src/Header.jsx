@@ -1,14 +1,16 @@
 import React from "react";
 import './Header.css'
+import { Link } from "react-router-dom";
+import { CiShoppingCart } from "react-icons/ci";
 
 function Header(){
     return(
         <>
      <ul>
-        <li>home</li>
-        <li>about</li>
+     <Link to={'/'}><li>Home</li></Link>
+        <Link to={'/about'}><li>About <CiShoppingCart/></li></Link>
         <li>menu</li>
-        <li>contect</li>
+        <Link to={'/count'}><li>count</li></Link>
         <li>gallery</li>
      </ul>
 
